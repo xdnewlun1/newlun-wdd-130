@@ -6,6 +6,8 @@ This is a creation of a Medical Practice Website for a clinic named Mercy Wellne
  - [x] Setup Git Repo, and VSCode Workspace
  - [ ] Setup all HTML Docs
  - [ ] Add all the document information
- - [ ] Add Styles and Framining for all elements
+ - [ ] Add Styles and Framining for all elements.
  - [ ] Impliment Fonts and Colors
  - [ ] Get Feedback
+
+Thank you for reading along, check out the webpage.

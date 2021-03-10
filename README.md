@@ -1,13 +1,7 @@
-# Welcome to Mercy Wellness Clinic
+#WDD 130 Final Project
 
-This is a WDD130 Final Project for Brigham Young University - Idaho.
-This is a creation of a Medical Practice Website for a clinic named Mercy Wellness Clinic, in Spring Branch, TX
+Owner: Xander Newlun
 
- - [x] Setup Git Repo, and VSCode Workspace
- - [ ] Setup all HTML Docs
- - [ ] Add all the document information
- - [ ] Add Styles and Framining for all elements.
- - [ ] Impliment Fonts and Colors
- - [ ] Get Feedback
+Semester: Winter 2021
 
-Thank you for reading along, check out the webpage.
+The `website` branch contains the live website hosted with GitHub pages. The `dev` branch is where develpment for this website takes place.

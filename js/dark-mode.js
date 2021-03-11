@@ -56,6 +56,7 @@ function changeMode() {
         if ( tgl ) {
             tgl.checked = true;
             document.body.classList.add('dark-mode');
+            document.getElementById("logo").src = "assets/home/dark-mode-image.png";
         }
     }
 }

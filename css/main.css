@@ -4,15 +4,15 @@
     --font-size: 1.15rem;
     /* Normal Colors */
     --background-color: white;
-    --alt-background-color: gainsboro;
+    --alt-background-color: #DCDCDC;
     --font-color: black;
-    --alt-font-color: darkslategray;
+    --alt-font-color: #032B42;
     --border-color: black;
     /* Dark Mode Colors */
-    --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
+    --dark-background-color: #292928;
+    --dark-alt-background-color: #032b43;
     --dark-font-color: white;
-    --dark-alt-font-color: gainsboro;
+    --dark-alt-font-color: #DCDCDC;
     --dark-border-color: white;
 }
 
@@ -63,6 +63,11 @@ header nav ul li {
     margin-right: 7.5px;
 }
 
+
+header nav ul li a{
+    text-decoration: none;
+}
+
 main {
     flex: 1;
     font-size: var(--font-size);
@@ -71,6 +76,39 @@ main {
     background-color: var(--background-color);
 }
 
+body{
+    font-family: 'Noto Sans JP', sans-serif; 
+    line-height: 3em;
+}
+
+body h1{
+    font-family: 'Calligraffitti', cursive;
+}
+
+body h2{
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+}
+
+
+#logo{
+    width: 350px;
+}
+
+
+
+section{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#banner-wrapper{
+    text-align: center;
+    display: block;
+}
+
+/* FOOTER CSS */
+/* FOOTER CSS */
 footer {
     display: grid;
     grid-template-rows: auto;
@@ -112,6 +150,7 @@ footer nav ul li {
     padding: 7.5px;
     margin-right: 7.5px;
 }
+
 
 footer #dark-mode {
     grid-row: 1;

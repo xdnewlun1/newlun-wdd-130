@@ -179,6 +179,28 @@ section{
     margin-bottom: 15px;
 }
 
+#contact-form-submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-input{
+    width: 95%;
+}
+
+#contact-form{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#contact-form p{
+    padding-top: -10px;
+}
+#message-input{
+    height: 250px;
+    width: 100%;
+}
 /* FOOTER CSS */
 /* FOOTER CSS */
 footer {

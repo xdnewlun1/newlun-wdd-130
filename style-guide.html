@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Christopher Keers">
+        <meta name="keywords" content="Site, Planning, Style, Guide, WDD 130, Web Fundamentals, Courses, Material, Projects, Assignments, CIT, BYUI">
+        <meta name="description" content="This is a homework assignment for WDD 130.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Site Planning - BYUI</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- YOU WILL EDIT THE CODE BELOW TO LOAD YOUR FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <!-- END EDITS -->
+        <link rel="stylesheet" href="css/style-guide.css">
+    </head>
+    <body>
+        <h1>Final Project Style Guide</h1>
+        <button>Toggle Dark Mode</button>
+        <div>
+            <h2>Normal Colors</h2>
+            <div class="color-wrapper">
+                <div class="title">
+                    Background
+                </div>
+                <div class="color"></div>
+                <div>
+                    #FFFFFF
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Alt Background
+                </div>
+                <div class="color"></div>
+                <div>
+                    #DCDCDC
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Primary
+                </div>
+                <div class="color"></div>
+                <div>
+                    #000000
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Alt Primary
+                </div>
+                <div class="color"></div>
+                <div>
+                    #032B42
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Dark Mode Colors</h2>
+            <div class="color-wrapper">
+                <div class="title">
+                    Background
+                </div>
+                <div class="color"></div>
+                <div>
+                    #292928
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Alt Background
+                </div>
+                <div class="color"></div>
+                <div>
+                    #032b43
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Primary
+                </div>
+                <div class="color"></div>
+                <div>
+                    #FFFFFF
+                </div>
+            </div>
+            <div class="color-wrapper">
+                <div class="title">
+                    Alt Primary
+                </div>
+                <div class="color"></div>
+                <div>
+                    #DCDCDC
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Fonts</h2>
+            <p>
+                I have chosen to use the following fonts for my site:
+            </p>
+            <ul>
+                <li>
+                    Source Sans Pro: Used for headlines.
+                </li>
+                <li>
+                    Noto Sans JP: Used for the primary font.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Elevator Pitch</h2>
+            <p>
+                Think about the last time you went to a doctor’s office website? Was it clunky, or messy and hard to use? I have found in my employers’ website that the User Experience is poorly orchestrated, and the User Interface is not well designed. I would like to use my time and web design skills to build a new and well-designed website for my employer, a doctor’s office, in San Antonio, TX. My website will be superior to the current website because I will be designing with the user in mind from the bottom up to make the best user experience possible for a medical website. This is important to the patients and customers of the office, and a well-designed website can bring in future patients, and more people.
+            </p>
+        </div>
+        <div>
+            <h2>Purpose Statement</h2>
+            <p>
+                The purpose of this website would be to encourage new patients to reach out and begin working with our office. The end goal is to increase revenue and daily patient in-take through website design, and ample resource of information for new and existing patients. The website is built to encourage new members of the area, or those looking to switch doctors to switch to our office over others and encourage return visits. This is done through reviews, and open access to information about our office and our history with patients. This will also be done through a redesign of the online patient reservation system, allowing patients to book appointments online in a quicker and more effective manner.
+            </p>
+        </div>
+        <div>
+            <h2>Audience Statement</h2>
+            <p>
+                One of the audiences for the website and our business is older aged members of the community, they tend to be at a higher need for medical care and need to be catered to in a fashion in order to establish care and join our practice. They are looking for good well-rounded care, that is hassle free and not too expensive. Their needs are not being met through the current website due to poor User Interface, and bad user experience. This audience will usually use the website through a desktop computer, due to a lack of smartphones in the age group.   
+            </p>
+        </div>
+        <div>
+            <h2>Misson Statement</h2>
+            <p>
+                Mercy Wellness Clinic’s purpose is to expand the small healthcare market of Spring Branch, TX while providing excellent patient care at affordable prices. We do this to help bring those in need of medical services to medical care that is affordable and accessible at great hours, and to staff that are well trained and accessible 24/7 for any patients needs. We strive to create a professional environment where patients feel safe to receive treatment and work hard to bettering themselves. We work hard to focus on all the members of our community and make sure everyone and their families are receiving the best medical care possible.
+            </p>
+        </div>
+        <div>
+            <h2>Persona and Scenario Ideas</h2>
+            <p>
+                Please replace this text with your ideas. Use multiple paragraph tags as needed.
+            </p>
+        </div>
+        <script>
+            /**
+             * This script adds a listener to the dark mode toggle button.
+             * When it is clicked the class .dark-mode is added or removed
+             * from the body. In our CSS file we added specific rules to
+             * the page when the .dark-mode class is present.
+             */
+            var toggle = document.querySelector('button');
+            if ( toggle ) {
+                toggle.addEventListener( 'click', toggleDarkMode );
+            }
+
+            function toggleDarkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+        </script>
+    </body>
+</html>

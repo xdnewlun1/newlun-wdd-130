@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Schedule Appointment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/schedule.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        padding-left: 10px;
+    }
+</style>
+<body>
+    <form method="GET" id="contact-form">
+        <h2>Contact Us Form</h2>
+        <p>Name<br>
+        <input type="text" id="name-text" class="form-input"></p>
+        <p>Email<br>
+        <input type="text" id="email-input" class="form-input"></p>
+        <p>Phone Number<br>
+        <input type="text" id="phne-input" class="form-input"></p>
+        <p>Subject<br>
+        <input type="text" id="subject-input" class="form-input"></p>
+        Message<br>
+        <input type="text" id="message-input">
+        <br><input type="submit" value="Send Message" onclick="submitWindow()">
+        <div id="contact-form-message"></div>
+    </form>
+</body>
+</html>

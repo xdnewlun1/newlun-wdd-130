@@ -94,6 +94,10 @@ body h1, body h3, h4{
     font-family: 'Calligraffitti', cursive;
 }
 
+#Conf-Apt{
+    text-align: center;
+}
+
 body h2{
     font-family: 'Calligraffitti', cursive;
     text-align: center;

@@ -19,7 +19,7 @@ function sch_apt(str){
                     'padding-left: 10px;'+
                 '}'+
                 '#apt-id{'+
-                    'display:none;'+
+                'display: none;' +
                 '}'+
             '</style>'+
             '<body>'+
@@ -45,16 +45,11 @@ function sch_apt(str){
     let newwindow=window.open("open-apt.html","Open Apt",'height=720,width=300');
     newwindow.document.write(page);
     if(window.focus) {newwindow.focus()}
+    document.getElementById(str).innerHTML = "WAITING..."
+    setTimeout(function(){ document.getElementById(str).innerHTML = "Appointment Confirmed!" }, 20000);
     console.log("Test");
 }
 
 function submitWindow(){
-    top.window.close()
-    //var div = this.closest(".apt-container")
-    /*ADD THIS TO THE FIRST FUNCTION
-    if(div){
-
-    }
-    */
-    work_doc.getElementById("Conf-Apt").innerHTML = "Appointment Confirmed";
+    top.close()
 }

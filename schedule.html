@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About US</title>
+    <title>Scheduling</title>
+    <meta name="author" content="Xander Newlun">
+    <meta name="keywords" content="Scheduling Service">
+    <meta name="description" content="MWC Scheduling Services">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/dark-mode.js"></script>
@@ -16,7 +19,7 @@
     <header>
         <div id="logo-wrapper">
             <a href="index.html">
-                <img src="assets/home/full-logo-trans.png" id="logo">
+                <img src="assets/home/full-logo-trans.png" id="logo" alt="MWC Logo">
             </a>
         </div>
         <nav>
@@ -50,163 +53,163 @@
         </nav>
     </header>
     <main>
-        <h2>Open Telemedicine Appointments</h2>
-        <section id="open-apt">
+        <section>
+            <h2>Open Telemedicine Appointments</h2>
+            <div id="open-apt">
+                <div class="col">
+                    <div class="apt-container" id="10-11">
+                        4/10/2021<br>
+                        11:00am<br>
+                        <button type="button" onclick="sch_apt('10-11')">Schedule</button>
+                    </div>
 
-            
-            <div class="col">
-                <div class="apt-container" id="10-11">
-                    4/10/2021<br>
-                    11:00am<br>
-                    <button type="button" onclick="sch_apt('10-11')">Schedule</button>
+                    <div class="apt-container" id="11-11">
+                        4/11/2021<br>
+                        11:00am<br>
+                        <button type="button" onclick="sch_apt('11-11')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="12-11">
+                        4/12/2021<br>
+                        11:00am<br>
+                        <button type="button" onclick="sch_apt('12-11')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-11">
+                        4/13/2021<br>
+                        11:00am<br>
+                        <button type="button" onclick="sch_apt('13-11')">Schedule</button>
+                    </div>
                 </div>
+                
+                <div class="col">
+                    <div class="apt-container" id="10-12">
+                        4/10/2021<br>
+                        12:00pm<br>
+                        <button type="button" onclick="sch_apt('10-12')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="11-11">
-                    4/11/2021<br>
-                    11:00am<br>
-                    <button type="button" onclick="sch_apt('11-11')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="12-11">
-                    4/12/2021<br>
-                    11:00am<br>
-                    <button type="button" onclick="sch_apt('12-11')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="13-11">
-                    4/13/2021<br>
-                    11:00am<br>
-                    <button type="button" onclick="sch_apt('13-11')">Schedule</button>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="apt-container" id="10-12">
-                    4/10/2021<br>
-                    12:00pm<br>
-                    <button type="button" onclick="sch_apt('10-12')">Schedule</button>
-                </div>
+                    <div class="apt-container" id="11-12">
+                        4/11/2021<br>
+                        12:00pm<br>
+                        <button type="button" onclick="sch_apt('11-12')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="11-12">
-                    4/11/2021<br>
-                    12:00pm<br>
-                    <button type="button" onclick="sch_apt('11-12')">Schedule</button>
+                    <div class="apt-container" id="12-12">
+                        4/12/2021<br>
+                        12:00pm<br>
+                        <button type="button" onclick="sch_apt('12-12')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-12">
+                        4/13/2021<br>
+                        12:00pm<br>
+                        <button type="button" onclick="sch_apt('13-12')">Schedule</button>
+                    </div>
                 </div>
+                
+                <div class="col">
+                    <div class="apt-container" id="10-1">
+                        4/10/2021<br>
+                        1:00pm<br>
+                        <button type="button" onclick="sch_apt('10-1')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="12-12">
-                    4/12/2021<br>
-                    12:00pm<br>
-                    <button type="button" onclick="sch_apt('12-12')">Schedule</button>
+                    <div class="apt-container" id="11-1">
+                        4/11/2021<br>
+                        1:00pm<br>
+                        <button type="button" onclick="sch_apt('11-1')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="12-1">
+                        4/12/2021<br>
+                        1:00pm<br>
+                        <button type="button" onclick="sch_apt('12-1')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-1">
+                        4/13/2021<br>
+                        1:00pm<br>
+                        <button type="button" onclick="sch_apt('13-1')">Schedule</button>
+                    </div>
                 </div>
                 
-                <div class="apt-container" id="13-12">
-                    4/13/2021<br>
-                    12:00pm<br>
-                    <button type="button" onclick="sch_apt('13-12')">Schedule</button>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="apt-container" id="10-1">
-                    4/10/2021<br>
-                    1:00pm<br>
-                    <button type="button" onclick="sch_apt('10-1')">Schedule</button>
-                </div>
+                <div class="col">
+                    <div class="apt-container" id="10-2">
+                        4/10/2021<br>
+                        2:00pm<br>
+                        <button type="button" onclick="sch_apt('10-2')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="11-1">
-                    4/11/2021<br>
-                    1:00pm<br>
-                    <button type="button" onclick="sch_apt('11-1')">Schedule</button>
+                    <div class="apt-container" id="11-2">
+                        4/11/2021<br>
+                        2:00pm<br>
+                        <button type="button" onclick="sch_apt('11-2')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="12-2">
+                        4/12/2021<br>
+                        2:00pm<br>
+                        <button type="button" onclick="sch_apt('12-2')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-2">
+                        4/13/2021<br>
+                        2:00pm<br>
+                        <button type="button" onclick="sch_apt('13-2')">Schedule</button>
+                    </div>
                 </div>
                 
-                <div class="apt-container" id="12-1">
-                    4/12/2021<br>
-                    1:00pm<br>
-                    <button type="button" onclick="sch_apt('12-1')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="13-1">
-                    4/13/2021<br>
-                    1:00pm<br>
-                    <button type="button" onclick="sch_apt('13-1')">Schedule</button>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="apt-container" id="10-2">
-                    4/10/2021<br>
-                    2:00pm<br>
-                    <button type="button" onclick="sch_apt('10-2')">Schedule</button>
-                </div>
+                <div class="col">
+                    <div class="apt-container" id="10-3">
+                        4/10/2021<br>
+                        3:00pm<br>
+                        <button type="button" onclick="sch_apt('10-3')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="11-2">
-                    4/11/2021<br>
-                    2:00pm<br>
-                    <button type="button" onclick="sch_apt('11-2')">Schedule</button>
+                    <div class="apt-container" id="11-3">
+                        4/11/2021<br>
+                        3:00pm<br>
+                        <button type="button" onclick="sch_apt('11-3')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="12-3">
+                        4/12/2021<br>
+                        3:00pm<br>
+                        <button type="button" onclick="sch_apt('12-3')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-3">
+                        4/13/2021<br>
+                        3:00pm<br>
+                        <button type="button" onclick="sch_apt('13-3')">Schedule</button>
+                    </div>
                 </div>
                 
-                <div class="apt-container" id="12-2">
-                    4/12/2021<br>
-                    2:00pm<br>
-                    <button type="button" onclick="sch_apt('12-2')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="13-2">
-                    4/13/2021<br>
-                    2:00pm<br>
-                    <button type="button" onclick="sch_apt('13-2')">Schedule</button>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="apt-container" id="10-3">
-                    4/10/2021<br>
-                    3:00pm<br>
-                    <button type="button" onclick="sch_apt('10-3')">Schedule</button>
-                </div>
+                <div class="col">
+                    <div class="apt-container" id="10-4">
+                        4/10/2021<br>
+                        4:00pm<br>
+                        <button type="button" onclick="sch_apt('10-4')">Schedule</button>
+                    </div>
 
-                <div class="apt-container" id="11-3">
-                    4/11/2021<br>
-                    3:00pm<br>
-                    <button type="button" onclick="sch_apt('11-3')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="12-3">
-                    4/12/2021<br>
-                    3:00pm<br>
-                    <button type="button" onclick="sch_apt('12-3')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="13-3">
-                    4/13/2021<br>
-                    3:00pm<br>
-                    <button type="button" onclick="sch_apt('13-3')">Schedule</button>
-                </div>
-            </div>
-            
-            <div class="col">
-                <div class="apt-container" id="10-4">
-                    4/10/2021<br>
-                    4:00pm<br>
-                    <button type="button" onclick="sch_apt('10-4')">Schedule</button>
-                </div>
-
-                <div class="apt-container" id="11-4">
-                    4/11/2021<br>
-                    4:00pm<br>
-                    <button type="button" onclick="sch_apt('11-4')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="12-4">
-                    4/12/2021<br>
-                    4:00pm<br>
-                    <button type="button" onclick="sch_apt('12-4')">Schedule</button>
-                </div>
-                
-                <div class="apt-container" id="13-4">
-                    4/13/2021<br>
-                    4:00pm<br>
-                    <button type="button" onclick="sch_apt('13-4')">Schedule</button>
+                    <div class="apt-container" id="11-4">
+                        4/11/2021<br>
+                        4:00pm<br>
+                        <button type="button" onclick="sch_apt('11-4')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="12-4">
+                        4/12/2021<br>
+                        4:00pm<br>
+                        <button type="button" onclick="sch_apt('12-4')">Schedule</button>
+                    </div>
+                    
+                    <div class="apt-container" id="13-4">
+                        4/13/2021<br>
+                        4:00pm<br>
+                        <button type="button" onclick="sch_apt('13-4')">Schedule</button>
+                    </div>
                 </div>
             </div>
         </section>

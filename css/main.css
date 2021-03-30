@@ -470,3 +470,7 @@ body.dark-mode .active, body.dark-mode .collapsible:hover{
     background-color: var(--background-color);
     border: 1px white solid;
 }
+
+body.dark-mode .apt-container{
+    border: 1px white solid;
+}

@@ -103,6 +103,10 @@ body h2{
     text-align: center;
 }
 
+.centered{
+    text-align: center;
+}
+
 .apt-container{
     width: 125px;
     height: 90px;
